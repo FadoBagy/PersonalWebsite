@@ -87,6 +87,58 @@
     }
 }
 
-#contacts {}
+.contact-section p {
+    margin-left: 10px;
+    color: #8181c5;
+}
 
-.contact-section {}
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.socials-item a {
+    text-decoration: none;
+    color: #8181c5;
+}
+
+.socials-item i {
+    font-size: 2rem;
+}
+
+#courses {
+    display: flex;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.course-image-section {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#courses img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#courses p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.course-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-controls button {
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

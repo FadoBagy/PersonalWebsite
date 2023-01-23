@@ -28,10 +28,70 @@ export const skillsTemplate
 
 export const coursesTemplate
     = `<div id="courses">
-    <h2>My courses</h2>
+    <div class="course-item">
+        <div class="course-image-section">
+            <img src="images/certificate.png">
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="course-item">
+        <div class="course-image-section">
+            <img src="images/certificate-vertical.png">
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="course-item">
+        <div class="course-image-section">
+            <img src="images/certificate.png">
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="course-item">
+        <div class="course-image-section">
+            <img src="images/certificate-vertical-2.png">
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="course-item">
+        <div class="course-image-section">
+            <img src="images/certificate.png">
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+</div>
+<div class="course-controls">
+    <button>
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button>
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
 </div>`;
 
 export const contactTemplate
     = `<div id="contacts">
-    <h2>Contact me</h2>
+    <div class="contact-section">
+        <h2>Contact me via email</h2>
+        <p>mlados43@gmail.com</p>
+    </div>
+    <div class="contact-section">
+        <h2>Or social media</h2>
+        <div class="socials">
+            <div class="socials-item">
+                <a href="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+            <div class="socials-item">
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="socials-item">
+                <a href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>`;

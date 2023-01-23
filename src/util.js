@@ -5,6 +5,7 @@ import {
     coursesTemplate,
     contactTemplate
 } from './templates.js';
+import { CoursesScroller } from './coursesScroller.js';
 
 const containerEl = document.getElementById('container');
 const navEls = document.querySelectorAll('.navigation-section nav ul li button');
@@ -18,11 +19,12 @@ export function ValidateContent(button) {
         containerEl.innerHTML = skillsTemplate;
     } else if (button.textContent == 'Courses') {
         containerEl.innerHTML = coursesTemplate;
+        CoursesScroller();
     } else if (button.textContent == 'Contacts') {
         containerEl.innerHTML = contactTemplate;
     }
     ActiveNavCheck();
-}
+};
 
 export function ActiveNavCheck() {
     const containerChildEl = document.querySelector('#container > div');
@@ -64,4 +66,4 @@ export function SuspendNavButtons() {
     setTimeout(() => {
         EnableAllButtons();
     }, 1200);
-}
+};
