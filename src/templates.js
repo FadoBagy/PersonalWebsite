@@ -72,7 +72,7 @@ export const contactTemplate
     = `<div id="contacts">
     <div class="contact-section">
         <h2>Contact me via email</h2>
-        <p>mlados43@gmail.com</p>
+        <p>example@example.com</p>
     </div>
     <div class="contact-section">
         <h2>Or social media</h2>

@@ -7,10 +7,11 @@ import {
 } from './templates.js';
 import { CoursesScroller } from './coursesScroller.js';
 
-const containerEl = document.getElementById('container');
 const navEls = document.querySelectorAll('.navigation-section nav ul li button');
 
 export function ValidateContent(button) {
+    const containerEl = document.getElementById('container');
+
     if (button.textContent == 'Home') {
         containerEl.innerHTML = homeTemplate;
     } else if (button.textContent == 'About Me') {

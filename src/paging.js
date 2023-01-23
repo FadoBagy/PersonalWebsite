@@ -3,13 +3,13 @@ import {
     SuspendNavButtons
 } from './util.js';
 
-const containerEl = document.getElementById('container');
-const navEls = document.querySelectorAll('.navigation-section nav ul li button');
-
-let currentButtonIndex;
-let previousButtonIndex;
-
 export function ButtonFunctionality() {
+    const containerEl = document.getElementById('container');
+    const navEls = document.querySelectorAll('.navigation-section nav ul li button');
+
+    let currentButtonIndex;
+    let previousButtonIndex;
+
     for (const button of navEls) {
         button.addEventListener('click', (e) => {
             e.preventDefault();
