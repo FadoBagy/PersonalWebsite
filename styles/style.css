@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Patrick+Hand&family=Quicksand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    display: flex;
+    overflow: hidden
+}
+
+h2 {
+    color: #34333f;
+}
+
+.active {
+    color: #34333f !important;
+    font-size: 2.3rem !important;
+}
