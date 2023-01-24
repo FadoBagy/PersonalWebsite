@@ -1,6 +1,5 @@
 .navigation-section {
-    width: 20%;
-    height: 100vh;
+    width: 380px;
     background-color: #000018;
     display: flex;
     justify-content: flex-start;
@@ -8,6 +7,7 @@
     flex-direction: column;
     gap: 50px;
     text-align: center;
+    z-index: 100;
 }
 
 .navigation-section img {
@@ -39,4 +39,41 @@
     cursor: pointer;
     font-weight: 500;
     transition: 600ms;
+}
+
+@media (max-width: 760px) {
+    .navigation-section {
+        width: 100%;
+        height: fit-content !important;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navigation-section div {
+        padding: 10px;
+    }
+
+    .navigation-section img {
+        width: 100px;
+        margin: 0;
+    }
+
+    .navigation-section h2 {
+        display: none;
+    }
+
+    .navigation-section nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 300px) {
+    .navigation-section {
+        gap: 5px;
+        flex-direction: column;
+    }
 }

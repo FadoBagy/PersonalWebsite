@@ -7,8 +7,12 @@
 }
 
 body {
+    background-color: #f2f2f2;
+}
+
+.wrapper {
     display: flex;
-    overflow: hidden
+    background-color: #f2f2f2;
 }
 
 h2 {
@@ -23,4 +27,15 @@ h2 {
 .disabled {
     pointer-events: none;
     opacity: 0.6;
+}
+
+@media (max-width: 760px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .active {
+        color: #708AF4 !important;
+        font-size: 1.5rem !important;
+    }
 }

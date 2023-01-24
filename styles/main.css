@@ -171,3 +171,55 @@
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+@media (max-width: 1300px) {
+    #courses {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #courses {
+        width: 400px;
+    }
+}
+
+@media (max-width: 760px) {
+    #container {
+        margin-top: 70px;
+    }
+
+    .main-section {
+        height: fit-content;
+    }
+}
+
+@media (max-width: 490px) {
+    .course-controls {
+        display: none;
+    }
+
+    #courses {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .course-image-section {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    #courses p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 300px) {
+    .course-image-section {
+        width: 150px;
+    }
+}
