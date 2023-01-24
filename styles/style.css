@@ -12,11 +12,11 @@ body {
 }
 
 h2 {
-    color: #34333f;
+    color: #000018;
 }
 
 .active {
-    color: #34333f !important;
+    color: #708AF4 !important;
     font-size: 2.3rem !important;
 }
 
